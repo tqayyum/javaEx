@@ -1,5 +1,7 @@
 package BasicJava.Q19;
 
+import java.util.Scanner;
+
 /**
  * 19. Write a Java program to convert a decimal number to binary number. Go to the editor
  * Input Data:
@@ -11,7 +13,11 @@ package BasicJava.Q19;
 
 public class Q19 {
     public static void main(String [] args) {
-        double num = 5.0;
+        double num;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a decimal number: ");
+        num = sc.nextDouble();
 
         System.out.println(Long.toBinaryString(Double.doubleToLongBits(num)));
     }
