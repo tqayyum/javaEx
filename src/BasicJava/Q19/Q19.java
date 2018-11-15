@@ -11,6 +11,8 @@ package BasicJava.Q19;
 
 public class Q19 {
     public static void main(String [] args) {
+        double num = 5.0;
 
+        System.out.println(Long.toBinaryString(Double.doubleToLongBits(num)));
     }
 }
