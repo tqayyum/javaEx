@@ -7,6 +7,7 @@ import java.util.Scanner;
  * Input Data:
  * Input any octal number: 10
  * Expected Output
+ * Equivalent decimal number: 8
  */
 
 public class Q25 {
